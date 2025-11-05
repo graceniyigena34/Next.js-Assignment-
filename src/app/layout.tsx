@@ -12,7 +12,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     
         <header className="bg-green-600 text-white p-4">
           <div className="flex justify-between items-center max-w-6xl mx-auto">
-            <h1 className="text-xl font-bold">Next.js Assignment</h1>
+            <h1 className="text-xl font-bold">AN</h1>
 
           
             <nav className="hidden md:flex space-x-6">
