@@ -1,3 +1,4 @@
+import ThemeToggle from "@/components/Themetoggle";
 import { ReactNode } from "react";
 
 export default function BlogLayout({ children }: { children: ReactNode }) {
@@ -15,6 +16,7 @@ export default function BlogLayout({ children }: { children: ReactNode }) {
 
    
       <div className="flex-1 p-4">
+        <ThemeToggle/>
         {children}
       </div>
     </div>

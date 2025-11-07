@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 import "./globals.css";
 
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
